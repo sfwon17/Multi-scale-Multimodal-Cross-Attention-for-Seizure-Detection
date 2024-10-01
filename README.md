@@ -13,13 +13,14 @@ Then seizure detection transformer models were built on top of models provided a
 ### Dataset
 Since there are no publicly available datasets containing multibiosignals alongside EEG for seizure detection, the dataset used to train and evaluate our models consists of data from 64 patients at Royal Melbourne Hospital. This dataset is not publicly available at this time.
 
+### Models 
 #### Model 1 features 
 * CNN-Multiscale multimodalities
 * weighted sum cls token fusion on long and short data 
 * weighted sum original embedding and transformed embedding on long and short data 
 * cross-attention is done on the new cls token and the new embeddings
 
-#### Model 1 features 
+#### Model 2 features 
 * CNN-Multiscale multimodalities
 * sum of cls tokens for on long and short data
 * cls tokens added back to transformed embedding for long and short data
