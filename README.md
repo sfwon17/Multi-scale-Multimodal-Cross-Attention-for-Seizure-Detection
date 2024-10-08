@@ -16,12 +16,12 @@ Since there are no publicly available datasets containing multibiosignals alongs
 ### Models 
 #### Model 1 features 
 * CNN-Multiscale multimodalities
-* weighted sum cls token fusion on long and short data 
-* weighted sum original embedding and transformed embedding on long and short data 
-* cross-attention is done on the new cls token and the new embeddings
+* Weighted sum cls token fusion on long and short data 
+* Weighted sum original embedding and transformed embedding on long and short data 
+* Cross-attention is done on the new cls token and the new embeddings
 
 #### Model 2 features 
 * CNN-Multiscale multimodalities
-* sum of cls tokens for on long and short data
-* cls tokens added back to transformed embedding for long and short data
-* cross-attention is done on fused transformed embedding for long and short data separately
+* Sum of cls tokens for on long and short data
+* Cls tokens added back to transformed embedding for long and short data
+* Cross-attention is done on fused transformed embedding for long and short data separately
