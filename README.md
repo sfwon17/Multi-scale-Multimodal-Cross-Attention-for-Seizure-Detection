@@ -8,7 +8,7 @@ The goal was to incorporate multibiosignals for seizure detection, and this stud
 2. https://github.com/sfwon17/Cardiorespiratory-function-as-a-non-invasive-biomarker-for-Detecting-Seizures-with-AI
 
 ### Requirements
-Then seizure detection transformer models were built on top of models provided at https://github.com/lucidrains/vit-pytorch.
+Seizure detection transformer models were built on top of models provided at https://github.com/lucidrains/vit-pytorch.
 
 ### Dataset
 Since there are no publicly available datasets containing multibiosignals alongside EEG for seizure detection, the dataset used to train and evaluate our models consists of data from 64 patients at Royal Melbourne Hospital. This dataset is not publicly available at this time.
